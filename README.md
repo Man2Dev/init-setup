@@ -1,4 +1,4 @@
-# fedora-bot
+# re-fedora (reproducible fedora)
 Fedora has better defaults than most distros, however it can't be the right choice everyone so some people make an install scripts so that they can always make the relevent changes automaticly if they need to reinstall the OS. what this tool is trying to do is to create an install script for you as so that you dont need to go though and learn the proper percedures and methods of making one:
 
 ## Goal
