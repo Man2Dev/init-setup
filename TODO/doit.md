@@ -9,4 +9,4 @@ usefull commands:
 curl https://spdx.org/licenses/licenses.json | jq
 - get the gpl
 curl -O https://spdx.org/licenses/GPL-3.0-or-later.json
-
+curl -O https://spdx.org/licenses/GPL-3.0-or-later.jsonld
