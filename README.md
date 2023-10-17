@@ -4,3 +4,12 @@ install script with lesser know function inside of it. After a lot of research f
 I have wrote a lot of notes on my local copy of the project with private information so I could not just push it to github. Now I will be cleaning it up and committing it properly and pushing it here.
 
 note: most of this code has mostly been tested on fedora kde however, it has also done some tests on workstation, kinoite and silverblue. However, I did modify the script for the Immutable (Atomic) variants of fedora.
+
+## Copyright
+
+refedora is released under version 3 or later of the GPL, the GNU General Public License.
+See [license.txt](license.txt).
+
+The author of refedora:
+
+- Copyright (C) 2023-2023 Mohammadreza Hendiani `<Man2Dev@proton.me>`
