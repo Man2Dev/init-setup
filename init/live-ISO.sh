@@ -15,3 +15,19 @@ if [ -n "$(pgrep -x "plasmashell")" ]; then
 else
 	echo "User is not running KDE Plasma 🚫"
 fi
+
+# to get list of avaliable wifi
+nmcli device wifi list
+# Prompt the user for username and password
+printf "Enter your SSDM name: "
+read -r ssdm
+
+# Disable echoing the password as it is typed
+stty -echo
+printf "Enter your password: "
+read -r password
+stty echo
+echo
+
+# connecnt to wifi get ssdm name form user
+nmcli device wifi connect --ask "$ssdm"
