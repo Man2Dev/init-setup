@@ -1,6 +1,6 @@
 #!/bin/sh
 
-gh config set git_protocol ssh --host github.com
+gh config set git_protocol ssh
 gh config set editor vim
 gh config set pager more
 
