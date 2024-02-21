@@ -6,7 +6,8 @@
 /etc/dnf/plugins
 
 
-# fastest mirror
+# mkaing it fast
 sudo dnf config-manager --save --setopt="fastestmirror=1"
+sudo dnf config-manager --save --setopt="max_parallel_downloads=10"
 # confirm
 dnf config-manager --dump | grep fastestmirror
