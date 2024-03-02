@@ -1,0 +1,2 @@
+sudo dnf install '*fish-completion'
+fish_update_completions
