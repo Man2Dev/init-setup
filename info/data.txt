@@ -1,0 +1,2 @@
+# To clean up your system, undo the installation:
+sudo dnf -C -y history undo last
